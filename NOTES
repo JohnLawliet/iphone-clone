@@ -1,0 +1,7 @@
+Hero section shows:
+1.  usage of gsap in hero banner
+2.  adding resize event listener properly and removing
+3.  resize event listener can be used as below also
+        window.addEventListener("resize",() => handleSrcEvent())
+    The difference betwween this and method used in app is that this would create a tiny overhead of calling an extra
+    anonymous function unnecessarily
